@@ -1,0 +1,9 @@
+npm i -g serverless
+
+serverless --version
+
+sls create --template aws-nodejs
+sls invoke local -f hello
+
+sls config credentials --provider aws --key xxxxx --secret xxxxxxx
+
